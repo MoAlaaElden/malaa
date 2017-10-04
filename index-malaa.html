@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>MAlaa</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container">  
+  <form id="contact" action="/cgi-bin/telnet-test.py" method="post">
+    <h3>Welcome to MAlaa</h3>
+    <h4>MAlaa Cisco-Telnet program</h4>
+    <fieldset>
+	  <input placeholder="Device IP Address" type="text" name="IP" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Username" type="text" name="USERNAME" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Password" type="password" name="PASSWORD" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Enable Password" type="password" name="ENABLEPASS" tabindex="4" required>
+    </fieldset>
+	<fieldset>
+      <input placeholder="Command-Line" type="text" name="COMMAND" tabindex="4" required>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+    <p class="copyright">Designed by <a href="http://www.noor.net/en/" target="_blank" title="MAlaa">MAlaa</a></p>
+  </form>
+</div>
+  
+  
+</body>
+</html>
